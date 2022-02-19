@@ -1,4 +1,4 @@
-package com.cczywyc.springfx.aop;
+package com.cczywyc.springfx.aop.overview;
 
 import org.springframework.util.ReflectionUtils;
 
@@ -10,7 +10,7 @@ import java.lang.reflect.Method;
  */
 public class TargetFilterDemo {
     public static void main(String[] args) throws ClassNotFoundException {
-        String targetClassName = "com.cczywyc.springfx.aop.EchoService";
+        String targetClassName = "com.cczywyc.springfx.aop.overview.EchoService";
         //current thread classloader
         ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
         //target class name
